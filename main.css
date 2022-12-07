@@ -137,6 +137,10 @@ section #formacao h3{
     color: var(--corRosa);
 }
 
+section #formacao .curso2{
+    padding-top: 20px;
+}
+
 section #contato{
     background-color: var(--corRosa);
     padding: 20px;
