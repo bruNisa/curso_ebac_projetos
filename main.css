@@ -19,6 +19,7 @@ body{
     background-color: var(--corCinza);
     background-image: url("images/fundo.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -69,7 +70,7 @@ header ul li a:hover{
 
 .corpo{
     max-width: 900px;
-    margin: 40px auto;
+    margin: 20px auto;
     border-radius: 8px;
     padding: 10px;
     background-color: var(--corCinza);
@@ -104,6 +105,7 @@ section #formacao{
 
 section #formacao img{
     border-radius: 15%;
+    height: 250px;
 }
 
 section #formacao a{
@@ -135,22 +137,29 @@ section #formacao h3{
     color: var(--corRosa);
 }
 
-section #redes{
-    background-color: var(--corRosa);
-    padding: 20px;
-    text-align: center;
+section #formacao .curso2{
+    padding-top: 20px;
 }
 
-section #redes li{
+section #contato{
+    background-color: var(--corRosa);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section #contato li{
     display: inline;
     padding: 10px;
 }
 
-section #redes img{
+section #contato img{
     height: 40px;
+    width: fit-content;
 }
 
-section #redes a img:hover{
+section #contato a img:hover{
     transform: scale(1.1);
     transition-duration: .5s;
 }
@@ -159,4 +168,25 @@ footer{
     background-color: var(--cor0);
     text-align: center;
     padding: 5px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    body{
+    }
+
+    section #sobre{
+        display: block;
+        text-align: center;
+        padding-left: 20px;
+    }
+    
+    section #formacao{
+        display: block;
+    }
+
+    section #formacao img {
+        display: none;
+    };
 }
