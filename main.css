@@ -132,9 +132,14 @@ section #formacao li a:hover{
 section #formacao h4{
     color: var(--corVerde);
 }
+
 section #formacao h3{
     padding: 10px;
     color: var(--corRosa);
+}
+
+.exercicios{
+    margin-top: 10px;
 }
 
 section #formacao .curso2{
