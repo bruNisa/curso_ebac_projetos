@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header{ 
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 30px;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+header li a:hover{
+    background-color: gray;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 30%;
+    margin: 5px;
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
+}
+
+h3, p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.articles img{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+time{
+    font-size: 0.6em;
+}
+
+article a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+article a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#sports{
+    background-color: rgba(0, 128, 0, 0.1);
+    border: 2px solid rgba(0, 128, 0, 0.4) ;
+}
+
+#sports h3{
+    color:rgba(0, 128, 0, 0.4);
+}
+
+#sports a{
+    background-color: rgba(0, 128, 0, 0.4);
+}
+#sports a:hover{
+    background-color: white;
+    color:rgba(0, 128, 0, 0.4);
+}
+
+#economy{
+    background-color: rgba(255, 217, 0, 0.1) ;
+    border: 2px solid rgba(255, 217, 0, 0.4) ;
+}
+
+#economy h3{
+    color:rgba(255, 217, 0, 0.4);
+}
+
+#economy a{
+    background-color: rgba(255, 217, 0, 0.4);
+}
+#economy a:hover{
+    background-color: white;
+    color:rgba(255, 217, 0, 0.4);
+}
+
+#entertainment{
+    background-color: rgba(255, 166, 0, 0.1) ;
+    border: 2px solid rgba(255, 166, 0, 0.4) ;
+}
+
+#entertainment h3{
+    color:rgba(255, 166, 0, 0.4);
+}
+
+#entertainment a{
+    background-color: rgba(255, 166, 0, 0.4);
+}
+#entertainment a:hover{
+    background-color: white;
+    color:rgba(255, 166, 0, 0.4);
+}
+
+#tech{
+    background-color: rgba(0, 0, 255, 0.1);
+    border: 2px solid rgba(0, 0, 255, 0.4) ;
+}
+
+#tech h3{
+    color:rgba(0, 0, 255, 0.4);
+}
+
+#tech a{
+    background-color: rgba(0, 0, 255, 0.4);
+}
+#tech a:hover{
+    background-color: white;
+    color:rgba(0, 0, 255, 0.4);
+}
+
+#sports, #economy, #entertainment, #tech{
+    border-radius: 10px;
+    margin: 5px;
+}
