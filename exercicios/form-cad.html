@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="mod10.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form>
+            <label for="nomeCompleto">Nome completo:</label>
+            <input type="text" required name="nomeCompleto" id="nomeCompleto">
+            <label for="email">E-mail:</label>
+            <input type="email" required name="email" id="email">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" required name="telefone" id="telefone">
+            <label for="CPF">CPF:</label>
+            <input type="text" required name="CPF" id="CPF">
+            <label for="endereco">Endereço:</label>
+            <input type="text" required name="endereco" id="endereco">
+            <label for="CEP">CEP:</label>
+            <input type="text" required name="CEP" id="CEP">
+            <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/messages_pt_BR.min.js"></script>
+    <script src="mod10.js"></script>
+</body>
+</html>
