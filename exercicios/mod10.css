@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+.container{
+    width: 350px;
+    margin:  auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+form input{
+    display: block;
+    width: 300px;
+    padding: 4px;
+}
+form label{
+    margin-top: 5px;
+    display: block;
+}
+
+#telefone, 
+#CPF,
+#CEP{
+    width: 150px;
+}
+
+#btnEnviar{
+    padding: 10px 40px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-bottom: 30px;
+    border:none;
+    background-color:  rgb(41, 41, 245);
+    color: white;
+    font-weight: bold;
+}
+#btnEnviar:hover{
+    background-color: white;
+    color: rgb(41, 41, 245);
+}
+
+.error{
+    color: red;
+    font-size: .7em;
+}
