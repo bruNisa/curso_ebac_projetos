@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 30px auto;
+    width: 500px;
+    background-color:rgba(0, 0, 0, 0.282);
+    border-radius: 7px;
+    padding: 40px 10px;
+}
+
+.container p{
+    text-align: center;
+}
+
+form button{
+    margin-top: 15px;
+}
+
