@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --cor1: rgb(108, 108, 187);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    background-color:var(--cor1);
+    color: white;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container,
+.secao-produtos {
+    max-width: 924px;
+    margin: auto;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.secao-sobre {
+    margin: 30px 0;
+}
+
+.secao-sobre .container {
+    align-items: flex-start;
+}
+
+.sobre {
+    width: 60%;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.secao-sobre img {
+    width: 40%;
+}
+
+h2 {
+    color: var(--cor1);
+    border-bottom: 2px solid var(--cor1);
+    font-style: italic;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+}
+
+.produto h3 {
+    margin: 10px 0 10px 0;
+}
+
+.produto button {
+    background-color: var(--cor1);
+    color: white;
+    width: 90%;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.produto button:hover {
+    background-color: white;
+    color:  var(--cor1);
+    border: 1px solid  var(--cor1);
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container,
+    .secao-produtos {
+        max-width: 700px;
+    }
+
+    .secao-sobre .container {
+        display: block;
+    }
+
+    .secao-sobre img,
+    .sobre {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 49.5%);
+        column-gap: 1%;
+        row-gap: 4%;
+    }
+
+    .produto img{
+        width: 90%;
+    }
+    .produto p{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        padding: 32px;
+    }
+
+    .container,
+    .secao-produtos {
+        max-width: 360px;
+    }
+
+    .secao-sobre .container,
+    .produtos,
+    ul li {
+        display: block;
+    }
+
+    .produtos{
+        text-align: center;
+    }
+
+    .secao-sobre img,
+    .sobre {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .produto img{
+        width: 90%;
+    }
+
+    .produto p{
+        max-width: 260px;
+    }
+
+    .produto button {
+        margin-bottom: 30px;
+    }
+}
