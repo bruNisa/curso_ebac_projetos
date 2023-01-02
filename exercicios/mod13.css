@@ -1,0 +1,75 @@
+:root {
+    --cor1: #e6b0ca;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 600px;
+    margin-bottom: 40px;
+    background-color: var(--cor1);
+    height: 1220px;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.artigos {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    column-gap: 2%;
+    row-gap: 5%;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .artigos {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+        row-gap: 5%;
+    }
+
+    .container{
+        margin-top: 400px;
+        height: 1750px;
+    }
+
+    .cabecalho > button{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .container{
+        margin-top: 200px;
+        height: 3570px;
+    }
+
+    .artigos{
+        display: block;
+    }
+
+    .artigo{
+        margin-bottom: 15px;
+    }
+}
