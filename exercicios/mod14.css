@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.section-title{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.text-colored{
+    color: rgba(0, 0, 255, 0.603) ;
+}
+
+#cabecalho,
+#fale-conosco button{
+    background-color: rgba(0, 0, 255, 0.603);
+    color: #fff;
+}
+
+#cabecalho h1,
+#cabecalho a{
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgba(0, 0, 255, 0.603) ;
+}
+
+#sobre-a-empresa,
+#ramos{
+    background-color: rgba(161, 193, 216, 0.541);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
