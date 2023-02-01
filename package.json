@@ -1,0 +1,24 @@
+{
+  "name": "curso_ebac_projetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calcmedia.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruNisa/curso_ebac_projetos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruNisa/curso_ebac_projetos/issues"
+  },
+  "homepage": "https://github.com/bruNisa/curso_ebac_projetos#readme",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}
